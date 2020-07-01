@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>CrOS Updates Serving</title>
+		<meta http-equiv="refresh" content="900">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="manifest.json">
+		<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="stylesheet" href="page.css">
+	</head>
+	<body>
+		<select id='firmware-select'>
+			<option value="mp" selected disabled>Firmware version</option>
+			<option value="mp">v1 (mp)</option>
+			<option value="mp-v2">v2 (mp-v2)</option>
+			<option value="mp-v4">v4 (mp-v4)</option>
+		</select>
+		<font face="arial">
+			<table id="cros-updates" border="1">
+				<thead>
+					<tr>Recovery image not working? Try changing the firmware version with the options to the top right (older images = mp, newer= mp-v4)</tr>
+				</thead>
+				<thead>
+					<tr>
+						<th>Codename</th>
+						<th>Recovery</th>
+						<th>Brand names</th>
+					</tr>
+				</thead>
+				<tbody id='listTBODY'>
+				</tbody>
+			</table>
+		</font>
+	  <script src='page.js'></script>
+	</body>
+</html>
+

@@ -1,0 +1,28 @@
+#header-fixed {
+	position: fixed;
+	top: 0px;
+	display: none;
+	background-color: white;
+}
+a {
+	color: #1894f9;
+}
+a:hover {
+	color: #5bb2fb;
+}
+a.notable {
+	color: #ff2424;
+}
+a.notable:hover {
+	color: #ffb38e;
+}
+a.notable.disabled {
+	color: #ff6060;
+	cursor: no-drop;
+}
+
+#firmware-select {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
