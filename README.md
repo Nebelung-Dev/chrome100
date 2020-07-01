@@ -1,2 +1,5 @@
-# chrome100
-Open source version of https://chrome100.ml/ 
+# Chrome100
+
+Archiving ChromeOS versions from 30 through 90 slowly
+
+## The project is open source and is linked to a github pages 
