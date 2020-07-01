@@ -1,6 +1,6 @@
 var xhttp = new XMLHttpRequest(),
 	firmwareSelect=document.getElementById('firmware-select'),
-	mpRegex=/(?:mp|mp-v2|mp-v4)(\.bin\.zip$)/gi;
+	mpRegex=/mp(?:-v\d{1,})?(\.bin\.zip$)/gi;
 
 xhttp.onreadystatechange=((e)=>{
 	if(xhttp.readyState == 4 && xhttp.status == 200){
